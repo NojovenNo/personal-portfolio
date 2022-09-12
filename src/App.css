@@ -4,19 +4,16 @@
   box-sizing: border-box;
 }
 
-#navbar-brand {
-  font-size: 24px;
-  margin-left: 25px;
-  width: 70%;
+#cointainer {
+  justify-content: space-between;
+  width: 50%;
 }
 
 ul {
-  padding-top: 10%;
   list-style: none;
   text-align: center;
   font-size: 25px;
   list-style: none;
-  color: red;
 }
 
 a:link {

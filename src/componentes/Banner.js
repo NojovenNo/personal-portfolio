@@ -1,34 +1,33 @@
 import React, { Component } from "react";
+import { IconContext } from "react-icons";
 import { FaMailBulk, FaGithub, FaCode } from "react-icons/fa";
 
 export default class Banner extends Component {
   render() {
     return (
-      <div>
-        <ul>
+      <IconContext.Provider value={{ color: "cornflowerblue", size: "25px" }}>
+        <div>
           <ul>
-            <li>Wey</li>
-            <a href="#1">
+            <ul>
+              <li>Wey</li>
               <li>
                 <FaCode />
                 Singa tu mandre
               </li>
-            </a>
-            <li>
-              <a href="#2">
+
+              <li>
                 <FaGithub />
                 Chequeate pal de vaina de react
-              </a>
-            </li>
-            <a href="#3">
+              </li>
+
               <li>
                 <FaMailBulk />
                 Chequea mi correo
               </li>
-            </a>
+            </ul>
           </ul>
-        </ul>
-      </div>
+        </div>
+      </IconContext.Provider>
     );
   }
 }
