@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-#cointainer {
-  justify-content: space-between;
-  width: 50%;
-}
-
 ul {
   list-style: none;
   text-align: center;
