@@ -2,21 +2,15 @@ import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import { FaRssSquare } from "react-icons/fa";
 function NavbarComp() {
   return (
-    <Navbar
-      sticky="bottom"
-      collapseOnSelect
-      expand="lg"
-      bg="dark"
-      variant="dark"
-    >
+    <Navbar sticky="bottom" expand="lg" bg="dark" variant="dark">
       <Container>
         <Navbar.Brand id="navbar-brand" href="http://localhost:3000">
           <FaRssSquare />
-          Prueba
+          Inicio
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="ms-auto">
             <Nav.Link href="#features">Biografia</Nav.Link>
             <Nav.Link href="#pricing">Tecnologias</Nav.Link>
             <NavDropdown title="Projectos" id="collasible-nav-dropdown">

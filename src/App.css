@@ -4,13 +4,25 @@
   box-sizing: border-box;
 }
 
-ul {
-  list-style: none;
+li {
+  margin: 75px;
+  padding: 30px;
+  color: cornflowerblue;
+  list-style-type: none;
   text-align: center;
-  font-size: 25px;
-  list-style: none;
+  display: grid;
 }
 
 a:link {
   text-decoration: none;
+}
+
+.navbar-collapse {
+  margin-inline-end: -50px;
+}
+
+.navbar-brand.navbar-brand {
+  color: cornflowerblue;
+  margin-left: -10px;
+  display: block;
 }

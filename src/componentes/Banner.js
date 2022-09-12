@@ -7,25 +7,21 @@ export default class Banner extends Component {
     return (
       <IconContext.Provider value={{ color: "cornflowerblue", size: "25px" }}>
         <div>
-          <ul>
-            <ul>
-              <li>Hey!</li>
-              <li>
-                <FaCode />
-                This is a test
-              </li>
+          <li>Hey!</li>
+          <li>
+            <FaCode />
+            This is a test
+          </li>
 
-              <li>
-                <FaGithub />
-                Look for it on GitHub
-              </li>
+          <li>
+            <FaGithub />
+            Look for it on GitHub
+          </li>
 
-              <li>
-                <FaMailBulk />
-                My email
-              </li>
-            </ul>
-          </ul>
+          <li>
+            <FaMailBulk />
+            My email
+          </li>
         </div>
       </IconContext.Provider>
     );
