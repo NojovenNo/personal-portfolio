@@ -9,20 +9,20 @@ export default class Banner extends Component {
         <div>
           <ul>
             <ul>
-              <li>Wey</li>
+              <li>Hey!</li>
               <li>
                 <FaCode />
-                Singa tu mandre
+                This is a test
               </li>
 
               <li>
                 <FaGithub />
-                Chequeate pal de vaina de react
+                Look for it on GitHub
               </li>
 
               <li>
                 <FaMailBulk />
-                Chequea mi correo
+                My email
               </li>
             </ul>
           </ul>
