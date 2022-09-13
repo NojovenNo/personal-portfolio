@@ -16,7 +16,7 @@
 }
 
 .navbar-brand.navbar-brand:hover {
-  color: red;
+  color: rgb(13, 81, 206);
 }
 
 /* Content */
@@ -48,7 +48,7 @@ li {
 
 ul,
 li:hover {
-  color: red;
+  color: rgb(13, 81, 206);
   cursor: pointer;
 }
 

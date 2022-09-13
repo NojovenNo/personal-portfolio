@@ -27,7 +27,9 @@ export default class Banner extends Component {
             <IoIosMail />
             My email
           </li>
-          <Button variant="outline-primary">Descargar CV</Button>
+          <li>
+            <Button variant="outline-primary">Descargar CV</Button>
+          </li>
         </ul>
       </div>
     );
