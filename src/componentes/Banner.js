@@ -1,29 +1,33 @@
 import React, { Component } from "react";
-import { IconContext } from "react-icons";
-import { FaMailBulk, FaGithub, FaCode } from "react-icons/fa";
-
+import { FaGithub, FaCode } from "react-icons/fa";
+import { BsLinkedin } from "react-icons/bs";
+import { IoIosMail } from "react-icons/io";
 export default class Banner extends Component {
   render() {
     return (
-      <IconContext.Provider value={{ color: "cornflowerblue", size: "25px" }}>
-        <div>
+      <div className="content">
+        <ul>
           <li>Hey!</li>
           <li>
             <FaCode />
-            This is a test
+            Soy Maximo Espinal
           </li>
 
           <li>
             <FaGithub />
-            Look for it on GitHub
+            Alguno de mis projectos
+          </li>
+          <li>
+            <BsLinkedin />
+            Linkedin
           </li>
 
           <li>
-            <FaMailBulk />
+            <IoIosMail />
             My email
           </li>
-        </div>
-      </IconContext.Provider>
+        </ul>
+      </div>
     );
   }
 }

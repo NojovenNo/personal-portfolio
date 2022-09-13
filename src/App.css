@@ -1,28 +1,53 @@
+/* Css base formant */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-li {
-  margin: 75px;
-  padding: 30px;
-  color: cornflowerblue;
-  list-style-type: none;
-  text-align: center;
-  display: grid;
-}
+/* NavBar */
 
 a:link {
   text-decoration: none;
 }
 
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.responsive-navbar-nav {
+  color: red;
+}
+ul,
+li {
+  font-size: 40px;
+  text-decoration: none;
+  display: list-item;
+  text-align: center;
+  justify-content: center;
+  color: cornflowerblue;
+  list-style-type: none;
+}
+
 .navbar-collapse {
-  margin-inline-end: -50px;
 }
 
 .navbar-brand.navbar-brand {
   color: cornflowerblue;
-  margin-left: -10px;
-  display: block;
+  margin-left: -5px;
+  display: inline-block;
+}
+
+.navbar-brand.navbar-brand:hover {
+  color: red;
+}
+
+ul,
+li:hover {
+  color: red;
+  cursor: pointer;
 }

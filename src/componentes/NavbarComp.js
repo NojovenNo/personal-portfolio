@@ -1,11 +1,15 @@
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
-import { FaRssSquare } from "react-icons/fa";
+import { HiCode } from "react-icons/hi";
 function NavbarComp() {
   return (
-    <Navbar sticky="bottom" expand="lg" bg="dark" variant="dark">
-      <Container>
+    <Navbar
+      sticky="bottom"
+      expand="lg"
+      className="navbar fixed-top navbar-light bg-light "
+    >
+      <Container className="container-fluid">
         <Navbar.Brand id="navbar-brand" href="http://localhost:3000">
-          <FaRssSquare />
+          <HiCode />
           Inicio
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
