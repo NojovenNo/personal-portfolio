@@ -5,7 +5,8 @@ function NavbarComp() {
     <Navbar
       sticky="bottom"
       expand="lg"
-      className="navbar fixed-top navbar-light bg-light "
+      className="navbar navbar-expand-lg navbar-light bd-navbar sticky-top"
+      // className="navbar navbar-light bg-light"
     >
       <Container className="container-fluid">
         <Navbar.Brand id="navbar-brand" href="http://localhost:3000">

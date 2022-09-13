@@ -7,11 +7,11 @@
 
 /* NavBar */
 .navbar-collapse {
+  color: red;
 }
 
 .navbar-brand.navbar-brand {
   color: cornflowerblue;
-  margin-left: -5px;
   display: inline-block;
 }
 
@@ -20,42 +20,87 @@
 }
 
 /* Content */
-a:link {
-  text-decoration: none;
-}
-
 .content {
   display: flex;
+  width: 100%;
   justify-content: center;
   align-items: center;
   text-align: center;
   min-height: 100vh;
 }
 
-.responsive-navbar-nav {
-  color: red;
+.scroll-down {
+  height: 50px;
+  width: 50px;
+  border: 2px solid cornflowerblue;
+  position: absolute;
+  bottom: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  left: 50%;
 }
+
+.scroll-down::before,
+.scroll-down::after {
+  content: "";
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  border: 3px solid black;
+  height: 10px;
+  width: 10px;
+  transform: translate(-50%, -50%) rotate(45deg);
+  border-top: transparent;
+  border-left: transparent;
+  animation: scroll-down 1s ease-in-out infinite;
+}
+
+.scroll-down::after {
+  top: 30%;
+  animation-delay: 0.3s;
+}
+
+@keyframes scroll-down {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 90%;
+  }
+}
+
+#container-aboutme {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  color: aqua;
+  background-color: black;
+}
+
 ul,
 li {
   font-size: 40px;
   text-decoration: none;
-  display: list-item;
-  text-align: center;
-  justify-content: center;
   color: cornflowerblue;
   list-style-type: none;
+}
+
+a:link {
+  text-decoration: none;
 }
 
 ul,
 li:hover {
   color: rgb(13, 81, 206);
   cursor: pointer;
-}
-
-/* About Me */
-
-#container-aboutme {
-  color: aqua;
-  padding: 20%;
-  background-color: black;
 }

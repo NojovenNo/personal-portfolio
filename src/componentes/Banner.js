@@ -6,31 +6,34 @@ import { IoIosMail } from "react-icons/io";
 export default class Banner extends Component {
   render() {
     return (
-      <div className="content">
-        <ul>
-          <li>Hey!</li>
-          <li>
-            <FaCode />
-            Soy Maximo Espinal
-          </li>
+      <div className="content-block">
+        <div className="content">
+          <ul>
+            <li>Hey!</li>
+            <li>
+              <FaCode />
+              Soy Maximo Espinal
+            </li>
 
-          <li>
-            <FaGithub />
-            Alguno de mis projectos
-          </li>
-          <li>
-            <BsLinkedin />
-            Linkedin
-          </li>
+            <li>
+              <FaGithub />
+              Alguno de mis projectos
+            </li>
+            <li>
+              <BsLinkedin />
+              Linkedin
+            </li>
 
-          <li>
-            <IoIosMail />
-            My email
-          </li>
-          <li>
-            <Button variant="outline-primary">Descargar CV</Button>
-          </li>
-        </ul>
+            <li>
+              <IoIosMail />
+              My email
+            </li>
+            <li>
+              <Button variant="outline-primary">Descargar CV</Button>
+            </li>
+          </ul>
+        </div>
+        <div className="scroll-down"></div>
       </div>
     );
   }
