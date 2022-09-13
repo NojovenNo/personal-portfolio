@@ -6,7 +6,20 @@
 }
 
 /* NavBar */
+.navbar-collapse {
+}
 
+.navbar-brand.navbar-brand {
+  color: cornflowerblue;
+  margin-left: -5px;
+  display: inline-block;
+}
+
+.navbar-brand.navbar-brand:hover {
+  color: red;
+}
+
+/* Content */
 a:link {
   text-decoration: none;
 }
@@ -33,21 +46,16 @@ li {
   list-style-type: none;
 }
 
-.navbar-collapse {
-}
-
-.navbar-brand.navbar-brand {
-  color: cornflowerblue;
-  margin-left: -5px;
-  display: inline-block;
-}
-
-.navbar-brand.navbar-brand:hover {
-  color: red;
-}
-
 ul,
 li:hover {
   color: red;
   cursor: pointer;
+}
+
+/* About Me */
+
+#container-aboutme {
+  color: aqua;
+  padding: 20%;
+  background-color: black;
 }

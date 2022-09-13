@@ -15,7 +15,7 @@ function NavbarComp() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#features">Biografia</Nav.Link>
+            <Nav.Link href="#features">Sobre mi</Nav.Link>
             <Nav.Link href="#pricing">Tecnologias</Nav.Link>
             <NavDropdown title="Projectos" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Project #1</NavDropdown.Item>
