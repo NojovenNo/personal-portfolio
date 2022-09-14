@@ -9,21 +9,32 @@ export default class Banner extends Component {
       <div className="content-block">
         <div className="content">
           <ul>
-            <li>Hey!</li>
+            <li id="pp">Hey!</li>
             <li>
               <FaCode />
               Soy Maximo Espinal
             </li>
 
             <li>
-              <FaGithub />
-              Alguno de mis projectos
+              <a
+                href="https://github.com/NojovenNo?tab=repositories"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                <FaGithub />
+                Algunos de mis projectos
+              </a>
             </li>
             <li>
-              <BsLinkedin />
-              Linkedin
+              <a
+                href="https://www.linkedin.com/in/maximoespinaldelgado/"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                <BsLinkedin />
+                Linkedin
+              </a>
             </li>
-
             <li>
               <IoIosMail />
               My email
@@ -33,7 +44,8 @@ export default class Banner extends Component {
             </li>
           </ul>
         </div>
-        <div className="scroll-down"></div>
+
+        <button className="scroll-down"></button>
       </div>
     );
   }
