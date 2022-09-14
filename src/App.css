@@ -112,5 +112,13 @@ a:hover {
   /* background-color: black; */
 }
 
-#about-me-tec {
+#content-projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  color: cornflowerblue;
+}
+
+#content-projects-code {
 }

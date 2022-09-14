@@ -3,6 +3,7 @@ import { Button } from "react-bootstrap";
 import { FaGithub, FaCode } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
 import { IoIosMail } from "react-icons/io";
+
 export default class Banner extends Component {
   render() {
     return (
@@ -11,9 +12,8 @@ export default class Banner extends Component {
           <li id="pp">Hey!</li>
           <li>
             <FaCode />
-            Soy Maximo Espinal
+            This is a test
           </li>
-
           <li>
             <a
               href="https://github.com/NojovenNo?tab=repositories"
@@ -21,7 +21,7 @@ export default class Banner extends Component {
               rel="noreferrer"
             >
               <FaGithub />
-              Algunos de mis proyectos
+              Some projects
             </a>
           </li>
           <li>
@@ -39,9 +39,10 @@ export default class Banner extends Component {
             My email
           </li>
           <li>
-            <Button variant="outline-primary">Descargar CV</Button>
+            <Button variant="outline-primary">Download CV</Button>
           </li>
         </ul>
+
         <button className="scroll-down"></button>
       </div>
     );

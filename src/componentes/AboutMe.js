@@ -22,18 +22,16 @@ export default class AboutMe extends Component {
             <Row>
               <Col xs={6}>
                 <div id="about-me">
-                  <h2>Sobre mi</h2>
+                  <h2>About Me</h2>
                   <h5>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Voluptatum nobis possimus nihil dolorem harum. Odit sint,
-                    possimus velit, ullam ipsam aspernatur nemo quae similique
-                    ex, minima nostrum explicabo! Omnis, quia.
+                    Voluptatum nobis possimus nihil dolorem harum.
                   </h5>
                 </div>
               </Col>
               <Col xs={6}>
                 <div id="about-me-tec">
-                  <h2>Tecnologias</h2>
+                  <h2>Technologys</h2>
                   <Row>
                     {/* Icon */}
                     <Col xs={6} md={4}>

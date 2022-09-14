@@ -11,15 +11,15 @@ function NavbarComp() {
       // className="navbar navbar-light bg-light"
     >
       <Container>
-        <Navbar.Brand id="navbar-brand" href="http://localhost:3000">
+        <Navbar.Brand id="navbar-brand">
           <HiCode />
-          Inicio
+          Home
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#features">Sobre mi / Tecnologias</Nav.Link>
-            <Nav.Link href="#pricing">Portafolio</Nav.Link>
+            <Nav.Link href="#features">About Me / Technologys</Nav.Link>
+            <Nav.Link href="#pricing">Portfolio</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
