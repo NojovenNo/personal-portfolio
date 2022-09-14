@@ -5,9 +5,6 @@
   box-sizing: border-box;
 }
 
-body {
-}
-
 /* NavBar */
 .navbar-brand.navbar-brand,
 a:link,
@@ -118,7 +115,5 @@ a:hover {
   justify-content: center;
   padding: 50px;
   color: cornflowerblue;
-}
-
-#content-projects-code {
+  margin: 75px;
 }

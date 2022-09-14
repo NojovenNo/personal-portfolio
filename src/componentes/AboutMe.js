@@ -30,7 +30,7 @@ export default class AboutMe extends Component {
                 </div>
               </Col>
               <Col xs={6}>
-                <div id="about-me-tec">
+                <div>
                   <h2>Technologys</h2>
                   <Row>
                     {/* Icon */}
