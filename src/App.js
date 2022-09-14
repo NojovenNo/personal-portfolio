@@ -9,7 +9,6 @@ function App() {
       <NavbarComp />
       <Banner />
       <AboutMe />
-      <Banner />
     </div>
   );
 }

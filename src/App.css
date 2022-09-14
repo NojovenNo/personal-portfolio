@@ -5,13 +5,20 @@
   box-sizing: border-box;
 }
 
+body {
+}
+
 /* NavBar */
-.navbar-collapse {
-  color: red;
+.navbar-brand.navbar-brand,
+a:link,
+ul,
+li,
+a,
+#container-aboutme {
+  color: cornflowerblue;
 }
 
 .navbar-brand.navbar-brand {
-  color: cornflowerblue;
   display: inline-block;
 }
 
@@ -30,7 +37,6 @@
 }
 a:link {
   text-decoration: none;
-  color: cornflowerblue;
 }
 
 ul,
@@ -38,7 +44,6 @@ li,
 a {
   font-size: 40px;
   text-decoration: none;
-  color: cornflowerblue;
   list-style-type: none;
 }
 ul,
@@ -67,7 +72,7 @@ a:hover {
   position: absolute;
   top: 10%;
   left: 50%;
-  border: 2px solid black;
+  border: 2px solid cornflowerblue;
   height: 10px;
   width: 10px;
   transform: translate(-50%, -50%) rotate(45deg);
@@ -104,6 +109,8 @@ a:hover {
   align-items: center;
   text-align: center;
   min-height: 100vh;
-  color: aqua;
-  background-color: black;
+  /* background-color: black; */
+}
+
+#about-me-tec {
 }

@@ -1,14 +1,16 @@
-import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
 import { HiCode } from "react-icons/hi";
 function NavbarComp() {
   return (
     <Navbar
+      collapseOnSelect
       sticky="bottom"
+      fixed="top"
       expand="lg"
       className="navbar navbar-expand-lg navbar-light bd-navbar sticky-top"
       // className="navbar navbar-light bg-light"
     >
-      <Container className="container-fluid">
+      <Container>
         <Navbar.Brand id="navbar-brand" href="http://localhost:3000">
           <HiCode />
           Inicio
@@ -16,20 +18,12 @@ function NavbarComp() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#features">Sobre mi</Nav.Link>
-            <Nav.Link href="#pricing">Tecnologias</Nav.Link>
-            <NavDropdown title="Projectos" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Project #1</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Project #2</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Project #3</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">GitHub</NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link href="#features">Sobre mi / Tecnologias</Nav.Link>
+            <Nav.Link href="#pricing">Portafolio</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
   );
 }
-
 export default NavbarComp;
