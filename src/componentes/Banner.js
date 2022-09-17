@@ -1,50 +1,74 @@
-import React, { Component } from "react";
+import React from "react";
 import { Button } from "react-bootstrap";
 import { FaGithub, FaCode } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
 import { IoIosMail } from "react-icons/io";
+import { Link } from "react-scroll";
 
-export default class Banner extends Component {
-  render() {
-    return (
-      <div className="content">
-        <ul>
-          <li id="pp">Hey!</li>
-          <li>
-            <FaCode />
-            This is a test
-          </li>
-          <li>
-            <a
-              href="https://github.com/NojovenNo?tab=repositories"
-              target={"_blank"}
-              rel="noreferrer"
+function Banner() {
+  return (
+    <div className="content">
+      <ul>
+        <li>Hey!</li>
+        <li>
+          <a href="#1">
+            <Link
+              to="container-aboutme"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={200}
             >
-              <FaGithub />
-              Some projects
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/maximoespinaldelgado/"
-              target={"_blank"}
-              rel="noreferrer"
-            >
-              <BsLinkedin />
-              Linkedin
-            </a>
-          </li>
-          <li>
+              <FaCode />
+              This is a test
+            </Link>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/NojovenNo?tab=repositories"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            <FaGithub />
+            Some projects
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/maximoespinaldelgado/"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            <BsLinkedin />
+            Linkedin
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/maximoespinaldelgado/"
+            target={"_blank"}
+            rel="noreferrer"
+          >
             <IoIosMail />
             My email
-          </li>
-          <li>
-            <Button variant="outline-primary">Download CV</Button>
-          </li>
-        </ul>
-
+          </a>
+        </li>
+        <li>
+          <Button variant="outline-primary">Download CV</Button>
+        </li>
+      </ul>
+      <Link
+        to="container-aboutme"
+        spy={true}
+        smooth={true}
+        offset={50}
+        duration={200}
+      >
         <button className="scroll-down"></button>
-      </div>
-    );
-  }
+      </Link>
+    </div>
+  );
 }
+
+export default Banner;

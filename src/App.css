@@ -7,11 +7,12 @@
 
 /* NavBar */
 .navbar-brand.navbar-brand,
-a:link,
+a:any-link,
+a:hover,
 ul,
 li,
-a,
-#container-aboutme {
+#container-aboutme,
+#content-projects {
   color: cornflowerblue;
 }
 
@@ -20,7 +21,7 @@ a,
 }
 
 .navbar-brand.navbar-brand:hover {
-  color: rgb(13, 81, 206);
+  cursor: pointer;
 }
 
 /* Content */
@@ -61,6 +62,7 @@ a:hover {
   bottom: 20px;
   border-radius: 50%;
   cursor: pointer;
+  background-color: transparent;
 }
 
 .scroll-down::before,
@@ -114,6 +116,15 @@ a:hover {
   align-items: center;
   justify-content: center;
   padding: 50px;
-  color: cornflowerblue;
   margin: 75px;
+}
+
+.icons-project {
+  justify-content: center;
+  display: inline-flex;
+  color: cornflowerblue;
+}
+
+.icons-project:hover {
+  cursor: pointer;
 }

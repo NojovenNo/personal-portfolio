@@ -18,8 +18,8 @@ function NavbarComp() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#features">About Me / Technologys</Nav.Link>
-            <Nav.Link href="#pricing">Portfolio</Nav.Link>
+            <Nav.Link>About Me / Technologys</Nav.Link>
+            <Nav.Link>Portfolio</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
