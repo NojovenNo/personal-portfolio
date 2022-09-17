@@ -55,7 +55,15 @@ function Banner() {
           </a>
         </li>
         <li>
-          <Button variant="outline-primary">Download CV</Button>
+          <Button
+            href="/CV.pdf"
+            target="_blank"
+            download="CV.pdf"
+            rel="noreferrer"
+            variant="outline-primary"
+          >
+            Download CV
+          </Button>
         </li>
       </ul>
       <Link
