@@ -8,6 +8,7 @@ function Projects() {
   return (
     <div id="content-projects">
       <div id="content-projects-code">
+        <h1 className="d-flex my-5 justify-content-center">Projects</h1>
         <Container fluid="sm">
           <IconContext.Provider
             value={{ size: "50px", className: "icons-project" }}
